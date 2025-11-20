@@ -29,7 +29,7 @@ function App () {
     setBoard(newBoard)
 
     // cambia de turno
-    const newTurn = turn == TURNS.X ? TURNS.O : TURNS.X
+    const newTurn = turn === TURNS.X ? TURNS.O : TURNS.X
     setTurn(newTurn)
 
     // guardar partida
@@ -74,10 +74,10 @@ function App () {
       </section>
 
       <section className='turn'>
-        <Square isSelected={turn == TURNS.X}>
+        <Square isSelected={turn === TURNS.X}>
           {TURNS.X}
         </Square>
-        <Square isSelected={turn == TURNS.O}>
+        <Square isSelected={turn === TURNS.O}>
           {TURNS.O}
         </Square>
       </section>
