@@ -1,6 +1,5 @@
-import { StrictMode } from 'react'
+import { StrictMode, Fragment } from 'react'
 import { createRoot } from 'react-dom/client'
-import { Fragment } from 'react'
 import { App } from './App.jsx'
 import './index.css'
 
