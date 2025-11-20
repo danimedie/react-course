@@ -1,0 +1,6 @@
+{
+  "eslint.workingDirectories": [
+    { "directory": "./", "changeProcessCWD": true }
+  ],
+  "eslint.packageManager": "npm"
+}

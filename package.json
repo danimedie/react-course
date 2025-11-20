@@ -1,0 +1,30 @@
+{
+  "name": "react-course",
+  "version": "1.0.0",
+  "description": "Este repositorio contiene mi trabajo personal siguiendo el curso de midudev: https://github.com/midudev/aprendiendo-react — gracias al autor por el material.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint \"projects/**/*.{js,jsx}\" --ext .js,.jsx --quiet",
+    "lint:fix": "eslint \"projects/**/*.{js,jsx}\" --ext .js,.jsx --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danimedie/react-course.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/danimedie/react-course/issues"
+  },
+  "homepage": "https://github.com/danimedie/react-course#readme",
+  "devDependencies": {
+    "eslint": "^8.57.1",
+    "standard": "^17.1.2"
+  },
+  "eslintConfig": {
+    "extends": "./node_modules/standard/eslintrc.json"
+  }
+}
